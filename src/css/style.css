@@ -89,3 +89,19 @@ header #logo{
     color:#fff;
     
 }
+
+#inicio-btn{
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color;
+}
+
+/* CONTATO */
+
+footer{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+}

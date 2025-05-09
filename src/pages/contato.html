@@ -18,6 +18,32 @@
             </ul>
         </nav>
     </header>
-    <h1>Contato</h1>
+    
+        <main id="container-contato">
+            <div class="contato">
+                <form class="form" id="form">
+                    <article class="control">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome">
+                        <small>Erro</small>
+                    </article>
+
+                    <article class="control">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email">
+                        <small>Erro</small>
+                    </article>
+
+                    <article class="control">
+                        <label for="descricao">Descrição</label>
+                        <textarea type="text" id="descricao" name="descricao"></textarea>
+                        <small>Erro</small>
+                    </article>
+
+                    <button type="submit" onclick="Enviar()">Enviar </button>
+                </form>
+            </div>
+        </main>
+
 </body>
 </html>
